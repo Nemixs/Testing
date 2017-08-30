@@ -20,24 +20,36 @@
   <body>
     <h1>Hello, world!</h1>
 
-    <div class="row">
-      <div class="col-md-12">
-        <a class="btn btn-default" href="#" role="button">7</a>
-        <a class="btn btn-default" href="#" role="button">8</a>
-        <a class="btn btn-default" href="#" role="button">9</a>
-      </div>
-      <div class="col-md-12">
-        <a class="btn btn-default" href="#" role="button">4</a>
-        <a class="btn btn-default" href="#" role="button">5</a>
-        <a class="btn btn-default" href="#" role="button">6</a>
-      </div>
-      <div class="col-md-12">
-        <a class="btn btn-default" href="#" role="button">1</a>
-        <a class="btn btn-default" href="#" role="button">2</a>
-        <a class="btn btn-default" href="#" role="button">3</a>
+    <div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <a class="btn btn-default btn-lg" href="#" role="button">7</a>
+            <a class="btn btn-default btn-lg" href="#" role="button">8</a>
+            <a class="btn btn-default btn-lg" href="#" role="button">9</a>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <a class="btn btn-default btn-lg" href="#" role="button">4</a>
+            <a class="btn btn-default btn-lg" href="#" role="button">5</a>
+            <a class="btn btn-default btn-lg" href="#" role="button">6</a>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <a class="btn btn-default btn-lg" href="#" role="button">1</a>
+            <a class="btn btn-default btn-lg" href="#" role="button">2</a>
+            <a class="btn btn-default btn-lg" href="#" role="button">3</a>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <a class="btn btn-default btn-lg" href="#" role="button">0</a>
+          </div>
+        </div>
       </div>
     </div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
