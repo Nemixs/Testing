@@ -20,7 +20,7 @@
   <body>
     <h1>Hello, world!</h1>
 
-    <div>
+    <div >
       <div class="row">
         <div class="col-md-12">
           <div class="col-md-6">
