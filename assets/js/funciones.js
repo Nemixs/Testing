@@ -19,22 +19,12 @@ function activarBoton(option){
 		$(document.getElementById("triangulo")).removeClass('active');
 		$(document.getElementById("cuadrado")).addClass('active');
 		$(document.getElementById("circulo")).removeClass('active');
-
-		/* Edición de textos en input principal */
-		$(document.getElementById("label")).html("Ingrese Lado Cuadrado");
-		document.getElementById("input").placeholder = "Ingrese Lado Cuadrado";
-		document.getElementById("forma").value = "2";
 	}
 	else if (option == 3){
 		/* Activación y desactivación de buttons */
 		$(document.getElementById("triangulo")).removeClass('active');
 		$(document.getElementById("cuadrado")).removeClass('active');
 		$(document.getElementById("circulo")).addClass('active');
-
-		/* Edición de textos en input principal */
-		$(document.getElementById("label")).html("Ingrese Radio Círculo");
-		document.getElementById("input").placeholder = "Ingrese Radio Círculo";
-		document.getElementById("forma").value = "3";
 	}
 }
 
