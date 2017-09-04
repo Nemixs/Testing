@@ -8,19 +8,19 @@
     <title>Calculadora - Testing</title>
 
     <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <script src="assets/js/funciones.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
+  <body>
   <body onload="cargar()"> <!-- onload="cargar()" -->
     <div class="text-center"> <!-- <div align="center"> -->
-      <h1>Calculadora de Área y Perímetro - Triángulos</h1>
+      <h1>Calculadora de Área y Perímetro </h1>
       <br>
           </div>
 
@@ -40,7 +40,8 @@
         </div>
       </div>
       <br><br>
-      
+       
+
       <form>
         <div class="col-md-12">
           <div class="input-group col-md-6 col-md-offset-3">
@@ -77,14 +78,14 @@
         -->
 
         <div class="row">
-          <div class="col-md-12">
+          <div id = "altura" class="col-md-12">
             <div class="col-md-2 col-md-offset-4">
               <h3>Altura Triángulo</h3>
             </div>
             <div>
               <h3 class="col-md-2" id="A">0</h3>
             </div>
-            <div class="col-md-2 col-md-offset-4">
+            <div id = "base" class="col-md-2 col-md-offset-4">
               <h3>Base Triángulo</h3>
             </div>
             <div>
@@ -128,6 +129,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
   </body>
 
@@ -137,5 +139,8 @@
       <p class="pull-left">Copyright &copy; Nemixs - <?php echo date("Y/m/d h:i:s A") ?></p>
     </div>
 </footer>
+
+</html>
+\ 
 
 </html>
