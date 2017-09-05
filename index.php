@@ -78,28 +78,34 @@
         -->
 
         <div class="row">
-          <div id = "altura" class="col-md-12">
+          <div class="col-md-12">
             <div class="col-md-2 col-md-offset-4">
-              <h3>Altura Triángulo</h3>
+              <h3 id = "datoA">Lado Triángulo 1</h3>
             </div>
             <div>
               <h3 class="col-md-2" id="A">0</h3>
             </div>
-            <div id = "base" class="col-md-2 col-md-offset-4">
-              <h3>Base Triángulo</h3>
+            <div class="col-md-2 col-md-offset-4">
+              <h3 id = "datoB">Lado Triángulo 2</h3>
             </div>
             <div>
               <h3 class="col-md-2" id="B">0</h3>
             </div>
+            <div class="col-md-2 col-md-offset-4">
+              <h3 id = "datoC">Lado Triángulo 3</h3>
+            </div>
+            <div>
+              <h3 class="col-md-2" id="C">0</h3>
+            </div>
             <div id="resultado_div">
               <div class="col-md-2 col-md-offset-4">
-                <h3 class="col-md-2">Área</h3> <!-- type="hidden" -->
+                <h3 class="col-md-2">Área:</h3> <!-- type="hidden" -->
               </div>
               <div>
                 <h3 class="col-md-2" id="ResultadoArea">0</h3>
               </div>
               <div class="col-md-2 col-md-offset-4">
-                <h3 class="col-md-2">Perímetro</h3> <!-- type="hidden" -->
+                <h3 class="col-md-2">Perímetro:</h3> <!-- type="hidden" -->
               </div>
               <div>
                 <h3 class="col-md-2" id="ResultadoPerimetro">0</h3>
