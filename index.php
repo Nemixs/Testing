@@ -141,7 +141,7 @@
 
   <footer class="footer">
     <div class="container">
-      <br><br>
+      <br><br><hr>
       <p class="pull-left">Copyright &copy; Nemixs - <?php echo date("Y/m/d h:i:s A") ?></p>
     </div>
 </footer>
