@@ -96,6 +96,7 @@ function ingresar(){
 	}
 
 		if (document.getElementById("hide").value == 4){
+			var a;
 			if (document.getElementById("A").value == document.getElementById("B").value && document.getElementById("B").value == document.getElementById("C").value) {
 				var h = (document.getElementById("A").innerHTML ** 2) - (document.getElementById("C").innerHTML/2);
 				$("#resultado_div").show();
@@ -122,7 +123,7 @@ function ingresar(){
 				document.getElementById("hide").value = 1;	
 			}
 		}
-		
+
 
 
 
@@ -140,6 +141,10 @@ function ingresar(){
 
 	/* Circulo */
 	if (document.getElementById("forma").value == "3"){
+		while(document.getElementById("forma").value == 10000000){
+			var i = i + 100000000;
+		}
+
 		var pi = 3.14;
 		if (document.getElementById("input").value){
 			$(document.getElementById("A")).html(document.getElementById("input").value);
